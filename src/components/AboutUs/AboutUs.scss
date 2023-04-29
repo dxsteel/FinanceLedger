@@ -1,0 +1,116 @@
+.section-about__color {
+  background-color: #28A745;
+}
+
+.section-about__photo {
+  background-image: url(../img/AboutUs-mobile.jpg);
+  border-radius: 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 320px;
+  min-height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    background-image: url('../img/AboutUs-mobile2x.jpg');
+  }
+  @media screen and (min-width: 768px) {
+    background-image: url(../img/AboutUs-laptop.jpg);
+    min-width: 368px;
+    min-height: 589px;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../img/AboutUs-laptop2x.jpg');
+    }
+  }
+  @media screen and (min-width: 1360px) {
+    background-image: url(../img/AboutUs-desktop.jpg);
+    min-width: 670px;
+    min-height: 460px;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../img/AboutUs-desktop2x.jpg');
+    }
+  }
+}
+
+.section-about__position {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+};
+
+.section-about__title{
+  padding: 79px 20px;
+  @media screen and (min-width: 768px) {
+    padding: 62px 32px;
+  }
+  @media screen and (min-width: 1360px) {
+    padding: 73px 20px;
+  }
+}
+
+.section-about {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+@media screen and (min-width: 768px) {
+  font-size: 18px;
+line-height: 25px;
+}
+};
+
+.section-about__name {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+margin-top: 16px;
+
+color: #FFFFFF;
+@media screen and (min-width: 768px) {
+  font-size: 40px;
+  line-height: 48px;
+}
+}
+
+.section-about__text {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+margin-top: 24px;
+
+color: #FFFFFF;
+@media screen and (min-width: 768px) {
+  font-size: 18px;
+line-height: 25px;
+}
+};
+
+.section-about__button {
+  box-sizing: border-box;
+background-color: #28A745;
+margin-top: 24px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 10px;
+color:#FFFFFF;
+border: 1px solid #FFFFFF;
+border-radius: 5px;
+}
