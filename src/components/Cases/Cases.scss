@@ -127,6 +127,11 @@
   }
 }
 
+.grid-photo1:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .grid-photo2 {
   background-image: url(../img/Cases2-mobile.jpg);
   background-repeat: no-repeat;
@@ -160,6 +165,10 @@
       background-image: url('../img/Cases2-desktop2x.jpg');
     }
   }
+}
+.grid-photo2:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .grid-photo3 {
@@ -197,6 +206,11 @@
   }
 }
 
+.grid-photo3:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .grid-photo4 {
   background-image: url(../img/Cases4-mobile.jpg);
   background-repeat: no-repeat;
@@ -230,6 +244,11 @@
       background-image: url('../img/Cases4-desktop2x.jpg');
     }
   }
+}
+
+.grid-photo4:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .grid-photo5 {
@@ -267,6 +286,11 @@
   }
 }
 
+.grid-photo5:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .grid-photo6 {
   background-image: url(../img/Cases6-mobile.jpg);
   background-repeat: no-repeat;
@@ -300,4 +324,10 @@
       background-image: url('../img/Cases6-desktop2x.jpg');
     }
   }
+}
+
+.grid-photo6:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: transform 1s;
 }

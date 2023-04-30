@@ -56,6 +56,14 @@
   }
 }
 
+.header-logo:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.1);
+  transition: transform 1s;
+  cursor: pointer;
+}
+
 .header-nav {
   display: flex;
   justify-content: center;
@@ -93,6 +101,13 @@
     margin-right: 0px;
   }
 }
+
+.header-nav__link:hover {
+  text-decoration:#28a745 underline ;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
 
 .header-title {
   font-family: 'Open Sans';
@@ -165,4 +180,9 @@
   @media screen and (min-width: 1360px) {
     margin: 24px auto 270px;
   }
+}
+
+.header-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }

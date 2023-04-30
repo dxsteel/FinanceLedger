@@ -6,14 +6,14 @@ export const Header = () => {
   return (
     <div className="header">
       <div className="container">
-        <div className="header-position">
+        <div id="home" className="header-position">
           <img className="header-logo" src={logoMobile} alt="logo" />
           <ul className="header-nav">
-            <li className="header-nav__link">Home</li>
-            <li className="header-nav__link">About</li>
-            <li className="header-nav__link">Cases</li>
-            <li className="header-nav__link">Blog</li>
-            <li className="header-nav__link">Contact</li>
+            <li className="header-nav__link"><a href="#home">Home</a></li>
+            <li className="header-nav__link"><a href="#about">About</a></li>
+            <li className="header-nav__link"><a href="#cases">Cases</a></li>
+            <li className="header-nav__link"><a href="#blog">Blog</a></li>
+            <li className="header-nav__link"><a href="#contact">Contact</a></li>
           </ul>
         </div>
 

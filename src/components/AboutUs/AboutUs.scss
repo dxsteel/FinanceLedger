@@ -1,5 +1,5 @@
 .section-about__color {
-  background-color: #28A745;
+  background-color: #28a745;
 }
 
 .section-about__photo {
@@ -45,9 +45,9 @@
   @media screen and (min-width: 768px) {
     display: flex;
   }
-};
+}
 
-.section-about__title{
+.section-about__title {
   padding: 79px 20px;
   @media screen and (min-width: 768px) {
     padding: 62px 32px;
@@ -59,58 +59,65 @@
 
 .section-about {
   font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-color: #FFFFFF;
-@media screen and (min-width: 768px) {
-  font-size: 18px;
-line-height: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
-};
 
 .section-about__name {
   font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 44px;
-margin-top: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 16px;
 
-color: #FFFFFF;
-@media screen and (min-width: 768px) {
-  font-size: 40px;
-  line-height: 48px;
-}
+  color: #ffffff;
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 48px;
+  }
 }
 
 .section-about__text {
   font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-margin-top: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 24px;
 
-color: #FFFFFF;
-@media screen and (min-width: 768px) {
-  font-size: 18px;
-line-height: 25px;
+  color: #ffffff;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
-};
 
 .section-about__button {
   box-sizing: border-box;
-background-color: #28A745;
-margin-top: 24px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 16px 32px;
-gap: 10px;
-color:#FFFFFF;
-border: 1px solid #FFFFFF;
-border-radius: 5px;
+  background-color: #28a745;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 10px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.section-about__button:hover {
+  cursor: pointer;
+  color: #28a745;
+  background-color: #ffffff;
+  transition: transform 1s;
 }

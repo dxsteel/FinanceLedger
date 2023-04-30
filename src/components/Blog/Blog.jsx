@@ -4,7 +4,7 @@ import './Blog.scss';
 export const Blog = () => {
   return (
     <div className='container section-blog__color'>
-      <div className='section-blog__position'>
+      <div id="blog" className='section-blog__position'>
       <div className='section-blog__photo'/>
       <div className='section-blog__title'>
         <p className='section-blog__date'>April 16 2020</p>

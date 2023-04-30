@@ -1,6 +1,6 @@
 .section-blog__color {
-  background-color: #0284D0;
-};
+  background-color: #0284d0;
+}
 
 .section-blog__photo {
   background-image: url(../img/Blog-mobile.jpg);
@@ -38,16 +38,16 @@
       background-image: url('../img/Blog-desktop2x.jpg');
     }
   }
-};
+}
 
 .section-blog__position {
   @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: row-reverse;
   }
-};
+}
 
-.section-blog__title{
+.section-blog__title {
   padding: 48px 20px;
   @media screen and (min-width: 768px) {
     padding: 59px 32px;
@@ -55,66 +55,73 @@
   @media screen and (min-width: 1360px) {
     padding: 80px 28px;
   }
-};
+}
 
 .section-blog__date {
   font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-color: #FFFFFF;
-@media screen and (min-width: 768px) {
-  font-size: 18px;
-line-height: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
-};
 
 .section-blog__name {
   font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 44px;
-margin-top: 16px;
-color: #FFFFFF;
-@media screen and (min-width: 768px) {
-  font-size: 40px;
-line-height: 54px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 16px;
+  color: #ffffff;
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 54px;
+  }
 }
-};
 
 .section-blog__text {
   font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-margin-top: 24px;
-color: #FFFFFF;
-@media screen and (min-width: 768px) {
-  font-size: 18px;
-line-height: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 24px;
+  color: #ffffff;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
-};
 
 .section-blog__button {
   font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 
-box-sizing: border-box;
-background-color: inherit;
-margin-top: 24px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 16px 32px;
-gap: 10px;
-color:#FFFFFF;
-border: 1px solid #FFFFFF;
-border-radius: 5px;
+  box-sizing: border-box;
+  background-color: inherit;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 10px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.section-blog__button:hover {
+  background-color: #ffffff;
+  color: #0284d0;
+  cursor: pointer;
+  transition: transform 1s;
 }

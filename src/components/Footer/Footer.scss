@@ -29,4 +29,10 @@
     line-height: 25px;
     margin-top: 10px;
   }
+};
+
+.section-footer__hover:hover {
+cursor: pointer;
+transition: transform 1s;
+opacity: 0.5;
 }

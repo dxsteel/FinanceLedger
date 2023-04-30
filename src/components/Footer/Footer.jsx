@@ -9,33 +9,33 @@ export const Footer = () => {
     <div className="container">
       <div className="section-footer">
         <div className="section-footer__position">
-          <a
+          <a 
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={facebook} alt="facebook" />
+            <img src={facebook} className='section-footer__hover' alt="facebook" />
           </a>
           <a
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={twitter} alt="twitter" />
+            <img src={twitter} className='section-footer__hover' alt="twitter" />
           </a>
           <a
             href="https://youtube.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={youtube} alt="youtube" />
+            <img src={youtube} className='section-footer__hover' alt="youtube" />
           </a>
           <a
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={linkedin} alt="linkedin" />
+            <img src={linkedin} className='section-footer__hover' alt="linkedin" />
           </a>
         </div>
         <h3 className="section-footer__inform">
