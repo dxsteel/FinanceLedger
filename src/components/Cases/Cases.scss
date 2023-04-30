@@ -7,63 +7,62 @@
   @media screen and (min-width: 1360px) {
     padding: 80px 0px 80px;
   }
-};
+}
 
 .section-cases {
   font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-text-align: center;
-color: #333333;
-@media screen and (min-width: 768px) {
-  font-size: 18px;
-line-height: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #333333;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  @media screen and (min-width: 1360px) {
+    font-size: 18px;
+    line-height: 33px;
+  }
 }
-@media screen and (min-width: 1360px) {
-  font-size: 18px;
-line-height: 33px;
-}
-
-};
 
 .section-cases__title {
   font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 44px;
-text-align: center;
-margin: 16px 30px 0px;
-color: #333333;
-@media screen and (min-width: 768px) {
-  font-size: 40px;
-line-height: 54px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  margin: 16px 30px 0px;
+  color: #333333;
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 54px;
+  }
+  @media screen and (min-width: 1360px) {
+    font-size: 40px;
+    line-height: 48px;
+  }
 }
-@media screen and (min-width: 1360px) {
-  font-size: 40px;
-line-height: 48px;
-}
-};
 
 .section-cases__text {
   font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-text-align: center;
-margin: 24px 36px 31px;
-color: #333333;
-@media screen and (min-width: 768px) {
-  margin: 24px 36px 23px;
-  font-size: 18px;
-line-height: 25px;
-}
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin: 24px 36px 31px;
+  color: #333333;
+  @media screen and (min-width: 768px) {
+    margin: 24px 36px 23px;
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
 
-.grid{
+.grid {
   list-style: none;
   flex-wrap: wrap;
   justify-content: center;
@@ -77,23 +76,23 @@ line-height: 25px;
   }
 }
 
-.grid-item{
+.grid-item {
   flex-basis: calc(100% / 3 - 32px);
   min-width: 280px;
   margin-right: 9px;
   margin-left: 9px;
   margin-bottom: 8px;
   @media screen and (min-width: 768px) {
-   min-width: 223px;
-   margin-top: 8px;
+    min-width: 223px;
+    margin-top: 8px;
   }
   @media screen and (min-width: 1360px) {
     min-width: 421px;
     margin-top: 8px;
-   }
+  }
 }
 
-.grid-photo1{
+.grid-photo1 {
   background-image: url(../img/Cases1-mobile.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -102,33 +101,33 @@ line-height: 25px;
   margin: auto;
   position: relative;
   @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  background-image: url('../img/Cases1-mobile2x.jpg');
-}
-@media screen and (min-width: 768px) {
-  background-image: url(../img/Cases1-laptop.jpg);
-  width: 223px;
-  min-height: 148px;
-  @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    background-image: url('../img/Cases1-laptop2x.jpg');
+    background-image: url('../img/Cases1-mobile2x.jpg');
+  }
+  @media screen and (min-width: 768px) {
+    background-image: url(../img/Cases1-laptop.jpg);
+    width: 223px;
+    min-height: 148px;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../img/Cases1-laptop2x.jpg');
+    }
+  }
+  @media screen and (min-width: 1360px) {
+    background-image: url(../img/Cases1-desktop.jpg);
+    width: 421px;
+    min-height: 282px;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../img/Cases1-desktop2x.jpg');
+    }
   }
 }
-@media screen and (min-width: 1360px) {
-  background-image: url(../img/Cases1-desktop.jpg);
-  width: 421px;
-  min-height: 282px;
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    background-image: url('../img/Cases1-desktop2x.jpg');
-  }
-}
-};
 
-.grid-photo2{
+.grid-photo2 {
   background-image: url(../img/Cases2-mobile.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -137,33 +136,33 @@ line-height: 25px;
   margin: auto;
   position: relative;
   @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  background-image: url('../img/Cases2-mobile2x.jpg');
-}
-@media screen and (min-width: 768px) {
-  background-image: url(../img/Cases2-laptop.jpg);
-  width: 223px;
-  min-height: 148px;
-  @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    background-image: url('../img/Cases2-laptop2x.jpg');
+    background-image: url('../img/Cases2-mobile2x.jpg');
+  }
+  @media screen and (min-width: 768px) {
+    background-image: url(../img/Cases2-laptop.jpg);
+    width: 223px;
+    min-height: 148px;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../img/Cases2-laptop2x.jpg');
+    }
+  }
+  @media screen and (min-width: 1360px) {
+    background-image: url(../img/Cases2-desktop.jpg);
+    width: 421px;
+    min-height: 282px;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../img/Cases2-desktop2x.jpg');
+    }
   }
 }
-@media screen and (min-width: 1360px) {
-  background-image: url(../img/Cases2-desktop.jpg);
-  width: 421px;
-  min-height: 282px;
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    background-image: url('../img/Cases2-desktop2x.jpg');
-  }
-}
-};
 
-.grid-photo3{
+.grid-photo3 {
   background-image: url(../img/Cases3-mobile.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -172,33 +171,33 @@ line-height: 25px;
   margin: auto;
   position: relative;
   @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  background-image: url('../img/Cases3-mobile2x.jpg');
-}
-@media screen and (min-width: 768px) {
-  background-image: url(../img/Cases3-laptop.jpg);
-  width: 223px;
-  min-height: 148px;
-  @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    background-image: url('../img/Cases3-laptop2x.jpg');
+    background-image: url('../img/Cases3-mobile2x.jpg');
+  }
+  @media screen and (min-width: 768px) {
+    background-image: url(../img/Cases3-laptop.jpg);
+    width: 223px;
+    min-height: 148px;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../img/Cases3-laptop2x.jpg');
+    }
+  }
+  @media screen and (min-width: 1360px) {
+    background-image: url(../img/Cases3-desktop.jpg);
+    width: 421px;
+    min-height: 282px;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../img/Cases3-desktop2x.jpg');
+    }
   }
 }
-@media screen and (min-width: 1360px) {
-  background-image: url(../img/Cases3-desktop.jpg);
-  width: 421px;
-  min-height: 282px;
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    background-image: url('../img/Cases3-desktop2x.jpg');
-  }
-}
-};
 
-.grid-photo4{
+.grid-photo4 {
   background-image: url(../img/Cases4-mobile.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -207,33 +206,33 @@ line-height: 25px;
   margin: auto;
   position: relative;
   @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  background-image: url('../img/Cases4-mobile2x.jpg');
-}
-@media screen and (min-width: 768px) {
-  background-image: url(../img/Cases4-laptop.jpg);
-  width: 223px;
-  min-height: 148px;
-  @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    background-image: url('../img/Cases4-laptop2x.jpg');
+    background-image: url('../img/Cases4-mobile2x.jpg');
+  }
+  @media screen and (min-width: 768px) {
+    background-image: url(../img/Cases4-laptop.jpg);
+    width: 223px;
+    min-height: 148px;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../img/Cases4-laptop2x.jpg');
+    }
+  }
+  @media screen and (min-width: 1360px) {
+    background-image: url(../img/Cases4-desktop.jpg);
+    width: 421px;
+    min-height: 282px;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../img/Cases4-desktop2x.jpg');
+    }
   }
 }
-@media screen and (min-width: 1360px) {
-  background-image: url(../img/Cases4-desktop.jpg);
-  width: 421px;
-  min-height: 282px;
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    background-image: url('../img/Cases4-desktop2x.jpg');
-  }
-}
-};
 
-.grid-photo5{
+.grid-photo5 {
   background-image: url(../img/Cases5-mobile.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -242,33 +241,33 @@ line-height: 25px;
   margin: auto;
   position: relative;
   @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  background-image: url('../img/Cases5-mobile2x.jpg');
-}
-@media screen and (min-width: 768px) {
-  background-image: url(../img/Cases5-laptop.jpg);
-  width: 223px;
-  min-height: 148px;
-  @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    background-image: url('../img/Cases5-laptop2x.jpg');
+    background-image: url('../img/Cases5-mobile2x.jpg');
+  }
+  @media screen and (min-width: 768px) {
+    background-image: url(../img/Cases5-laptop.jpg);
+    width: 223px;
+    min-height: 148px;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../img/Cases5-laptop2x.jpg');
+    }
+  }
+  @media screen and (min-width: 1360px) {
+    background-image: url(../img/Cases5-desktop.jpg);
+    width: 421px;
+    min-height: 282px;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../img/Cases5-desktop2x.jpg');
+    }
   }
 }
-@media screen and (min-width: 1360px) {
-  background-image: url(../img/Cases5-desktop.jpg);
-  width: 421px;
-  min-height: 282px;
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    background-image: url('../img/Cases5-desktop2x.jpg');
-  }
-}
-};
 
-.grid-photo6{
+.grid-photo6 {
   background-image: url(../img/Cases6-mobile.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -277,29 +276,28 @@ line-height: 25px;
   margin: auto;
   position: relative;
   @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  background-image: url('../img/Cases6-mobile2x.jpg');
-}
-@media screen and (min-width: 768px) {
-  background-image: url(../img/Cases6-laptop.jpg);
-  width: 223px;
-  min-height: 148px;
-  @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    background-image: url('../img/Cases6-laptop2x.jpg');
+    background-image: url('../img/Cases6-mobile2x.jpg');
+  }
+  @media screen and (min-width: 768px) {
+    background-image: url(../img/Cases6-laptop.jpg);
+    width: 223px;
+    min-height: 148px;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../img/Cases6-laptop2x.jpg');
+    }
+  }
+  @media screen and (min-width: 1360px) {
+    background-image: url(../img/Cases6-desktop.jpg);
+    width: 421px;
+    min-height: 282px;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../img/Cases6-desktop2x.jpg');
+    }
   }
 }
-@media screen and (min-width: 1360px) {
-  background-image: url(../img/Cases6-desktop.jpg);
-  width: 421px;
-  min-height: 282px;
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    background-image: url('../img/Cases6-desktop2x.jpg');
-  }
-}
-};
-

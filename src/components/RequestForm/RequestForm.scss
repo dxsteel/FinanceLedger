@@ -29,6 +29,7 @@
     background-image: url(../img/Request-laptop.jpg);
     min-width: 368px;
     min-height: 354px;
+    margin-bottom: 40px;
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
@@ -39,6 +40,7 @@
     background-image: url(../img/Request-desktop.jpg);
     min-width: 670px;
     min-height: 454px;
+    margin-bottom: 0px;
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
@@ -46,3 +48,4 @@
     }
   }
 }
+

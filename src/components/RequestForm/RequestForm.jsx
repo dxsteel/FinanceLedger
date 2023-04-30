@@ -8,7 +8,7 @@ export const RequestForm = () => {
     <div className='container section-request__color'>
       <div className='section-request__position'>
       <div className='section-request__photo'/>
-    <CallbackForm/>
+      <CallbackForm/>
       </div>
     </div>
   );
