@@ -1,6 +1,7 @@
 import Header from "./Header";
 import AboutUs from "./AboutUs";
-import Cases from "./Cases"
+import Cases from "./Cases";
+import Blog from "./Blog";
 
 import './App.scss';
 
@@ -10,6 +11,7 @@ export const App = () => {
       <Header/>
       <AboutUs/>
       <Cases/>
+      <Blog/>
     </div>
   );
 };

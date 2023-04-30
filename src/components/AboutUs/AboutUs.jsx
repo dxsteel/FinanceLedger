@@ -5,7 +5,7 @@ export const AboutUs = () => {
   return (
     <div className='container section-about__color'>
       <div className='section-about__position'>
-      <div className='section-about__photo'></div>
+      <div className='section-about__photo'/>
       <div className='section-about__title'>
         <p className='section-about'>What are you looking for</p>
         <h2 className='section-about__name'>We provide bespoke solutions</h2>
