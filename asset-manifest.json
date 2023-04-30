@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FinanceLedger/static/css/main.3aa3abbc.css",
-    "main.js": "/FinanceLedger/static/js/main.f1e7218e.js",
+    "main.css": "/FinanceLedger/static/css/main.b776bd7b.css",
+    "main.js": "/FinanceLedger/static/js/main.902d103a.js",
     "static/media/Header-desktop2x.jpg": "/FinanceLedger/static/media/Header-desktop2x.a71b1230b392bf4403b1.jpg",
     "static/media/Header-laptop2x.jpg": "/FinanceLedger/static/media/Header-laptop2x.c28ab0ddb68bb8ae9792.jpg",
     "static/media/Header-desktop.jpg": "/FinanceLedger/static/media/Header-desktop.63ecf3adab5eae64222e.jpg",
@@ -81,13 +81,17 @@
     "static/media/Cases5-laptop.jpg": "/FinanceLedger/static/media/Cases5-laptop.ba1a0d73d46d015b83b8.jpg",
     "static/media/Cases3-laptop.jpg": "/FinanceLedger/static/media/Cases3-laptop.970320bf840ad3007e54.jpg",
     "static/media/Logo-mobile.svg": "/FinanceLedger/static/media/Logo-mobile.06e39f2bc6e55f8923a118f7cf393a2b.svg",
+    "static/media/Twitter.svg": "/FinanceLedger/static/media/Twitter.e455471bb1c97dccc86f2812e485d481.svg",
     "index.html": "/FinanceLedger/index.html",
+    "static/media/youtube.svg": "/FinanceLedger/static/media/youtube.542b7e2833a9f77d921b16adcfbcccfb.svg",
+    "static/media/linkedin.svg": "/FinanceLedger/static/media/linkedin.e0ecfa0bf8b08ddad4325933bf6d940e.svg",
+    "static/media/Facebook.svg": "/FinanceLedger/static/media/Facebook.c94fbf617d44356bbcd7c11074170de0.svg",
     "static/media/Vector.svg": "/FinanceLedger/static/media/Vector.25b6c10f082e704fb31767512e22b4f9.svg",
-    "main.3aa3abbc.css.map": "/FinanceLedger/static/css/main.3aa3abbc.css.map",
-    "main.f1e7218e.js.map": "/FinanceLedger/static/js/main.f1e7218e.js.map"
+    "main.b776bd7b.css.map": "/FinanceLedger/static/css/main.b776bd7b.css.map",
+    "main.902d103a.js.map": "/FinanceLedger/static/js/main.902d103a.js.map"
   },
   "entrypoints": [
-    "static/css/main.3aa3abbc.css",
-    "static/js/main.f1e7218e.js"
+    "static/css/main.b776bd7b.css",
+    "static/js/main.902d103a.js"
   ]
 }
