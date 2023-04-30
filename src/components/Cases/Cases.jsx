@@ -17,8 +17,6 @@ export const Cases = () => {
         <li className='grid-item'><img src='' className='grid-photo6' alt=''/></li>
       </ul>
       </div>
-
-    
     </div>
   );
 };

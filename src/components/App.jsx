@@ -2,6 +2,8 @@ import Header from "./Header";
 import AboutUs from "./AboutUs";
 import Cases from "./Cases";
 import Blog from "./Blog";
+import Team from "./Team";
+import RequestForm from "./RequestForm";
 
 import './App.scss';
 
@@ -12,6 +14,8 @@ export const App = () => {
       <AboutUs/>
       <Cases/>
       <Blog/>
+      <Team/>
+      <RequestForm/>
     </div>
   );
 };
